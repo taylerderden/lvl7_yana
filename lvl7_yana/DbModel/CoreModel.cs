@@ -2,15 +2,24 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace lvl7_yana;
+namespace lvl7_yana.DbModel;
 
-public partial class Ispr2335RogozhnikovaYoLvl7Context : DbContext
+public partial class CoreModel : DbContext
 {
-    public Ispr2335RogozhnikovaYoLvl7Context()
+    private static CoreModel instance;
+    public static CoreModel init()
+    {
+        if (instance == null)
+        {
+            instance = new CoreModel();
+        }
+        return instance;
+    }
+    public CoreModel()
     {
     }
 
-    public Ispr2335RogozhnikovaYoLvl7Context(DbContextOptions<Ispr2335RogozhnikovaYoLvl7Context> options)
+    public CoreModel(DbContextOptions<CoreModel> options)
         : base(options)
     {
     }
@@ -43,7 +52,7 @@ public partial class Ispr2335RogozhnikovaYoLvl7Context : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseMySql("server=cfif31.ru;port=3306;user id=ISPr23-35_RogozhnikovaYO;password=ISPr23-35_RogozhnikovaYO;database=ISPr23-35_RogozhnikovaYO_lvl7;character set=utf-8", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.36-mysql"));
+        => optionsBuilder.UseMySql("server=cfif31.ru;port=3306;user id=ISPr23-35_RogozhnikovaYO;password=ISPr23-35_RogozhnikovaYO;database=ISPr23-35_RogozhnikovaYO_lvl7;character set=utf-8", ServerVersion.Parse("8.0.36-mysql"));
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

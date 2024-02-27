@@ -1,5 +1,4 @@
-﻿using lvl7_yana.Pages;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,24 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace lvl7_yana
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Логика взаимодействия для User_window.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class User_window : Window
     {
-        public MainWindow()
+        public User_window()
         {
             InitializeComponent();
-        }
-
-        private void btnProduct_Click(object sender, RoutedEventArgs e)
-        {
-            FrameNav.Navigate(new Page_Product());
         }
     }
 }

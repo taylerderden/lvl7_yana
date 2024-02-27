@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:lvl7_yana"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <BitmapImage x:Key="Picture" UriSource="Resources/photo_5357315955199431665_y.jpg"/>
     </Application.Resources>
 </Application>

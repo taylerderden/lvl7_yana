@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reflection.Metadata;
 
-namespace lvl7_yana;
+namespace lvl7_yana.DbModel;
 
 public partial class Product
 {
@@ -15,7 +16,7 @@ public partial class Product
 
     public string? Description { get; set; }
 
-    public string? Image { get; set; }
+    public byte[] Image { get; set; }
 
     public int? ProductionPersonCount { get; set; }
 

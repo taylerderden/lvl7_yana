@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace lvl7_yana;
+namespace lvl7_yana.DbModel;
 
 public partial class ProductSale
 {
