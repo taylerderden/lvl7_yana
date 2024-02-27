@@ -16,7 +16,7 @@ public partial class Product
 
     public string? Description { get; set; }
 
-    public byte[] Image { get; set; }
+    public string? Image { get; set; }
 
     public int? ProductionPersonCount { get; set; }
 

@@ -62,7 +62,7 @@ namespace lvl7_yana.Pages
             if (Filt.SelectedIndex > 0)
                 products = products.Where(p => p.ProductTypeId == (Filt.SelectedItem as ProductType).Id);
 
-            LVProduct.ItemsSource = products.ToList();
+            LVProduct.ItemsSource = products.ToList(); 
         }
 
         private void Change(object sender, TextChangedEventArgs e) 

@@ -29,7 +29,7 @@
                             <ColumnDefinition/>
                         </Grid.ColumnDefinitions>
                         <Grid>
-                            <Image Source="\Resources\photo_5357315955199431665_y.jpg" Width="100" Height="50"/>
+                            <Image Source="{Binding Image}" Width="100" Height="50"/>
                         </Grid>
                         <Grid Grid.Column="1">
                             <StackPanel>

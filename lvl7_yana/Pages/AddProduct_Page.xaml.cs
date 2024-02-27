@@ -56,7 +56,9 @@ namespace lvl7_yana.Pages
             OpenFileDialog openFile = new OpenFileDialog { Filter = "Jpeg files|*.jpg|All Files|*.*" };
             if (openFile.ShowDialog() == true)
             {
-                product.Image = File.ReadAllBytes(openFile.FileName);
+                //product.Image = File.ReadAllBytes(openFile.FileName); blob
+
+                product.Image = "\\Resources\\Товар_import\\" + new FileInfo(openFile.FileName).Name;
             }
         }
     }

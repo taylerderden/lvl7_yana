@@ -9,6 +9,19 @@
 
   <ItemGroup>
     <None Remove="Resources\photo_5357315955199431665_y.jpg" />
+    <None Remove="Resources\Товар_import\B111C5.jpeg" />
+    <None Remove="Resources\Товар_import\E112C6.jpg" />
+    <None Remove="Resources\Товар_import\E574V5.jpg" />
+    <None Remove="Resources\Товар_import\K839K3.jpg" />
+    <None Remove="Resources\Товар_import\L293S9.jpg" />
+    <None Remove="Resources\Товар_import\M112C8.jpg" />
+    <None Remove="Resources\Товар_import\M294G9.jpg" />
+    <None Remove="Resources\Товар_import\M398S9.jpg" />
+    <None Remove="Resources\Товар_import\N283K3.jpg" />
+    <None Remove="Resources\Товар_import\Q857B4.jpg" />
+    <None Remove="Resources\Товар_import\S384K2.jpg" />
+    <None Remove="Resources\Товар_import\T238C7.jpg" />
+    <None Remove="Resources\Товар_import\T845M4.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,6 +40,19 @@
 
   <ItemGroup>
     <Resource Include="Resources\photo_5357315955199431665_y.jpg" />
+    <Resource Include="Resources\Товар_import\B111C5.jpeg" />
+    <Resource Include="Resources\Товар_import\E112C6.jpg" />
+    <Resource Include="Resources\Товар_import\E574V5.jpg" />
+    <Resource Include="Resources\Товар_import\K839K3.jpg" />
+    <Resource Include="Resources\Товар_import\L293S9.jpg" />
+    <Resource Include="Resources\Товар_import\M112C8.jpg" />
+    <Resource Include="Resources\Товар_import\M294G9.jpg" />
+    <Resource Include="Resources\Товар_import\M398S9.jpg" />
+    <Resource Include="Resources\Товар_import\N283K3.jpg" />
+    <Resource Include="Resources\Товар_import\Q857B4.jpg" />
+    <Resource Include="Resources\Товар_import\S384K2.jpg" />
+    <Resource Include="Resources\Товар_import\T238C7.jpg" />
+    <Resource Include="Resources\Товар_import\T845M4.png" />
   </ItemGroup>
 
   <ItemGroup>
